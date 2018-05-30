@@ -4,5 +4,20 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+import { SocketProvider } from 'socket.io-react';
+import io from 'socket.io-client';
+ 
+
+ 
+const socket = io.connect(process.env.SOCKET_URL);
+socket.on('message', msg => console.log(msg));
+ 
+const DOMNode = document.getElementById('renderTarget')
+
+
+
+ReactDOM.render(
+    <SocketProvider socket={socket}><App />
+     </SocketProvider>, document.getElementById('root'));
 registerServiceWorker();

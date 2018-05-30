@@ -1,0 +1,62 @@
+.leftside, .rightside{
+    background-color: #f2f7fa;
+    height: 100vh;
+    
+}
+
+#edit{
+    display: block;
+    margin-left: 95%;
+    margin-top: 5%;
+    width: 24px;
+    padding: 3px;
+    background-color: white;
+    border: 1px solid rgb(216, 215, 235);
+    border-radius: 4px;
+
+}
+#profile{
+    display: block;
+    width: 100px;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid #1C79F1;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 10%;
+
+}
+
+#spartanlogo{
+    display: block;
+    width: 100px;
+    background-color: #F1F7FA;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 1%;
+
+}
+
+.input-group-text{
+    background-color: #1C79F1;
+    color:white;
+ 
+}
+
+.btn-primary{
+    background-color: #1C79F1;
+    font-size: 12px;
+}
+.chat{
+
+}
+
+.input{
+
+    
+}
+
+input[type="text"]{
+    font-size: 12px;
+}
