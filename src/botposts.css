@@ -1,0 +1,9 @@
+
+p{
+    font-size: 12px;
+    display: inline-block;
+    font-weight: bold;
+    background-color: rgb(98, 182, 224);
+    padding: 10px 5px;
+    border-radius: 16px;
+}
