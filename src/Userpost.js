@@ -6,7 +6,11 @@ const Userpost = ({post}) => {
     
     return (
         <React.Fragment>
-        <p id="hello" >{post}</p><br/>
+            <div className="row">
+            <div className="col-4 offset-8">
+            <img id="jena" src={require('./img/jenna_logo_small.svg')}/><p id="hello" >  {post}</p> <br/> 
+         </div>
+         </div>
         </React.Fragment>
     )
 }

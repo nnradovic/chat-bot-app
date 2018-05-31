@@ -3,7 +3,19 @@
     font-size: 12px;
     font-weight: bold;
     background-color: #F1F7FA;
-    padding: 10px 5px;
+    padding: 5px 15px;
     border-radius: 16px;
     float: right;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+#jena{
+    float: right;
+    background-color: #F1F7FA;
+    padding: 10px 5px;
+    border-radius: 16px;
+    width: 42px;
+   
+
 }

@@ -3,7 +3,39 @@ p{
     font-size: 12px;
     display: inline-block;
     font-weight: bold;
-    background-color: rgb(98, 182, 224);
+    background-color: #F1F7FA;
+    padding: 5px 15px;
+    border-radius: 16px;
+
+}
+p:last-child{
+   margin-bottom: 30px;
+
+}
+
+ #spartan{
+   
+    background-color: #F1F7FA;
     padding: 10px 5px;
     border-radius: 16px;
+    width: 42px;
+  
+   
+}
+
+.options {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4285F4;
+    border-radius: 50%;
+    color: white;
+    margin-left: 5px;
+}  
+
+.options-holder {
+    display: flex;
+    background-color: transparent;
 }

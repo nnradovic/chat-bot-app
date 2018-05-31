@@ -1,9 +1,19 @@
 import React from 'react';
 import './botposts.css'
 const Botpost = ({ post }) => {
+
+    const displayOptions = () => {
+		if(post.message.options) {
+			return post.message.options.map((option, i) => {
+				return <span className="options" key={i}>{option}</span>
+			})
+		}
+	}
     return (
         <div className="botPost">
-            <p>{post.message.text}<br />{post.message.options ? post.message.options : null}</p>
+          <img id="spartan" src={require('./img/spartan.png')}/> <p>{post.message.text}<br /></p>
+          <p className="options-holder">{displayOptions()}</p>
+            
         </div>
     )
 }

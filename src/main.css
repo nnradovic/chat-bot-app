@@ -4,6 +4,7 @@
     
 }
 
+
 #edit{
     display: block;
     margin-left: 95%;
@@ -24,6 +25,7 @@
     border-radius: 50px;
     margin: 0 auto;
     margin-top: 10%;
+   
 
 }
 
@@ -35,7 +37,7 @@
     margin: 0 auto;
     margin-top: 5%;
     padding: 1%;
-
+    margin-bottom: 5%;
 }
 
 .input-group-text{
@@ -51,4 +53,41 @@
 
 input[type="text"]{
     font-size: 12px;
+
 }
+
+
+.input-group>.form-control:not(:first-child) {
+    border:2px solid #1C79F1;
+}
+
+.input-group{
+    margin-top: 100px;
+    position: fixed;
+    bottom: 100px;
+    left: 0%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding-top: 10px;
+  
+}
+.wrap{
+    height: 100vh;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .input-group {
+       width: 30%;
+       left: 26.5%;
+    }
+  } 
+ 
+    
