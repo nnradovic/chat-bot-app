@@ -1,5 +1,5 @@
 import React from 'react';
-import './botposts.css'
+import './css/Botposts.css'
 const Botpost = ({ post }) => {
 
     const displayOptions = () => {

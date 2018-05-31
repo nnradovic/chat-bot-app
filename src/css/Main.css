@@ -1,6 +1,6 @@
 .leftside, .rightside{
     background-color: #f2f7fa;
-    height: 100vh;
+    min-height: 80vh;
     
 }
 
@@ -31,7 +31,7 @@
 
 #spartanlogo{
     display: block;
-    width: 100px;
+    width: 150px;
     background-color: #F1F7FA;
     border-radius: 50px;
     margin: 0 auto;
@@ -62,32 +62,41 @@ input[type="text"]{
 }
 
 .input-group{
-    margin-top: 100px;
-    position: fixed;
-    bottom: 100px;
-    left: 0%;
-    padding: 0 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
     width: 100%;
     padding-top: 10px;
-  
+ 
 }
 .wrap{
-    height: 100vh;
+    min-height: 90vh;
 }
 
+.footer{
+    text-align: center;
+    font-size: 8px;
+    display: block;
+    background-color:transparent;
+}
 
+#about{
+    text-align: center;
+    background-color:transparent;
+    border:none;
+    font-size: 8px;
+    margin-top: 7px;
+}
 
+.footer #jena{
+   
+    border:none;
+    margin-top: -9px
+}
 
-@media only screen and (min-width: 768px) {
+#about span{
+    color: gray;
+}
 
-    .input-group {
-       width: 30%;
-       left: 26.5%;
-    }
-  } 
- 
-    
+.hamburger{
+    background-color: white;
+    border:2px solid #1C79F1;
+}

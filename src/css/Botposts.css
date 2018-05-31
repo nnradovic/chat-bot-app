@@ -6,7 +6,7 @@ p{
     background-color: #F1F7FA;
     padding: 5px 15px;
     border-radius: 16px;
-
+    border:1px solid skyblue;
 }
 p:last-child{
    margin-bottom: 30px;
@@ -19,7 +19,7 @@ p:last-child{
     padding: 10px 5px;
     border-radius: 16px;
     width: 42px;
-  
+    border:1px solid skyblue;
    
 }
 
@@ -33,9 +33,11 @@ p:last-child{
     border-radius: 50%;
     color: white;
     margin-left: 5px;
+    border:none;
 }  
 
 .options-holder {
     display: flex;
     background-color: transparent;
+    border:none;
 }

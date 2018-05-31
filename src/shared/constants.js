@@ -1,2 +1,3 @@
-const SOCKET_URL = "https://git.heroku.com/react-test-task-back.git"
+const SOCKET_URL = `https://react-test-task-back.herokuapp.com/`
 
+export default SOCKET_URL;

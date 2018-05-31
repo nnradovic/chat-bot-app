@@ -8,6 +8,7 @@
     float: right;
     margin-bottom: 0;
     margin-right: 10px;
+    border:1px solid skyblue;
 }
 
 #jena{
@@ -16,6 +17,6 @@
     padding: 10px 5px;
     border-radius: 16px;
     width: 42px;
-   
+    border:1px solid skyblue;
 
 }

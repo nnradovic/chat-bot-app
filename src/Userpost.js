@@ -1,5 +1,5 @@
 import React from 'react';
-import './userpost.css'
+import './css/Userpost.css'
 const Userpost = ({post}) => {
 
     console.log(post);
