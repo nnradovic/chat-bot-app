@@ -1,9 +1,9 @@
 
 #hello{
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     background-color: #F1F7FA;
-    padding: 5px 15px;
+    padding: 11px 15px;
     border-radius: 16px;
     float: right;
     margin-bottom: 0;
@@ -14,9 +14,9 @@
 #jena{
     float: right;
     background-color: #F1F7FA;
-    padding: 10px 5px;
+    padding: 13px 15px;
     border-radius: 16px;
-    width: 42px;
+    width: 95px;
     border:1px solid skyblue;
 
 }
